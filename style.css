@@ -1,0 +1,177 @@
+body{
+    margin: 0px 0px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+}
+#header{
+    display: flex;
+    background-color: rgb(244, 207, 213);
+    margin: 0px 0px;
+    height: 550px;
+}
+#headerpart1{
+width: 30%;
+margin: auto 100px;
+}
+#headerpart1 h1{
+    font-size: 50px;
+}
+#headerpart1 p{
+    font-size: small;
+}
+#headerpart1 button{
+    background-color: #E55473;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+#headerpart2 img{
+width: 435px;
+height: 500px;
+margin: 0px 150px;
+padding-top: 50px;
+}
+/* Home Part Section  */
+#homepart{
+    margin: 150px auto;
+}
+.feature h1{
+    text-align: center;
+
+}
+.feature p{
+    text-align: center;
+    padding: 0px 450px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 200px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 10px;
+    border-radius: 100px 100px 0px 0px;
+}
+.img figcaption{
+    text-align: center;
+}
+.image1{
+background-color: rgb(244, 193, 244);
+}
+.image2{
+background-color: rgb(233, 136, 136);
+}
+.image3{
+background-color: rgb(166, 199, 101);
+}
+/* Service Section  */
+#service{
+    
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    margin: 100px 100px;
+    background-color: rgb(196, 193, 193);
+    border-radius: 5px;
+    
+}
+.servicepart{
+    margin-right: 50px;
+    border: 2px solid;
+}
+.servicepart img{
+    width: 50px;
+    height: 50px;
+}
+
+#deal{
+    display: flex;
+    padding: 50px 0px;
+    background-color: rgb(228, 223, 223);
+    margin: 100px 0px;
+}
+#dealpart1{
+    margin: auto 250px;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: larger;
+}
+#dealpart1 p{
+    text-align: center;
+    width: 400px;
+    font-size: large;
+}
+#dealpart2 img{
+    width: 200px;
+    height: 250px;
+}
+#dealpart1 button{
+    background-color: #E55473;
+    padding: 5px 10px;
+    font-size: 15px;
+
+}
+.instainfo{
+    text-align: center;
+}
+.instainfo h1 {
+    font-size: xx-large;
+}
+.instainfo p{
+    padding: 0px 400px;
+    margin-bottom: 50px;
+}
+.instaimg{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.instaimg img{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+}
+/* subscribe section  */
+#subscribe{
+    background: url(images/Rectangle\ 9.png) center;
+    text-align: center;
+    padding: 100px 0px;
+    margin: 100px 100px;
+}
+#subscribe h1{
+    font-size: xx-large;
+}
+#subscribe input{
+    width: 500px;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+#subscribe button{
+    padding: 7px 7px;
+    background-color: #E55473;
+}
+/* Footer Section  */
+#footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+}
+#footer h1{
+    font-size: 50px;
+}
+#footer span{
+color: #E55473;
+}
+.footerend{
+    color: gray;
+}
