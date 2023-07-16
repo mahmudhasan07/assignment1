@@ -82,11 +82,29 @@ background-color: rgb(166, 199, 101);
 }
 .servicepart{
     margin-right: 50px;
-    border: 2px solid;
+    
 }
-.servicepart img{
-    width: 50px;
-    height: 50px;
+#service img{
+    width: 60px;
+    height: 60px;
+}
+.servicepart1{
+    margin-right: 70px;
+}
+.servicepart1 img{
+    padding-left: 100px;
+}
+.servicepart2{
+    margin-right: 70px;
+}
+.servicepart2 img{
+    padding-left: 80px;
+}
+.servicepart3{
+    margin-right: 70px;
+}
+.servicepart3 img{
+    padding-left: 30px;
 }
 
 #deal{
